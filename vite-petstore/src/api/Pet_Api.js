@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/bulaon/pets";
+const API_URL = "http://localhost:8080/mandanas/pets";
 
 export const fetchPets = async () => {
   const res = await fetch(API_URL);
